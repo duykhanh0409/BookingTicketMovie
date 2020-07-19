@@ -1,0 +1,20 @@
+.mv-single-hero-2 {
+    background: url('../../../images/uploads/slider-bg2.jpg') no-repeat;
+    height: 198px;
+    position: relative;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .body-booking{
+    height: 800px;
+    width: 100%;
+    /* background:url('../../../images/banner2.jpg'); */
+    background: #020d18;
+  }
+  .body-booking .row{
+    padding-top: 50px;
+  }

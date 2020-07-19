@@ -1,0 +1,37 @@
+extends ../layouts/common.pug
+
+block content
+    h1 Create booking room
+
+    if errors
+        each error in errors
+            .alert.alert-danger=error
+    
+    form(action="/booking/postData", method="POST")
+        .form-group
+            label id
+            input.form-control(type="text" name="id")
+        .form-group
+            label name
+            input.form-control(type="text" name="name")
+        .form-group
+            label time
+            input.form-control(type="text" name="time")
+        .form-group
+            label date
+            input.form-control(type="text" name="date")
+        .form-group
+            label tongTien
+            input#avatar.form-control-file(type="text" name="tongTien")
+        .form-group
+            label cinema
+            input#avatar.form-control-file(type="text" name="cinema")
+        .form-group
+            label seats
+            input#avatar.form-control-file(type="text" name="seats")
+        .form-group
+            label client
+            input#avatar.form-control-file(type="text" name="client")
+        
+
+        button.btn.btn-primary Create

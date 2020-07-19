@@ -1,0 +1,61 @@
+.slider {
+    background: url('../images/uploads/slider-bg.jpg') no-repeat;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .slider .container{
+      position: relative;
+      top: -80px;
+  }
+  .movie-item img{
+      position: relative;
+  }
+  .movie-item .title-in{
+      position: absolute;
+      z-index: 5;
+      font-size: 15px;
+       top: 250px;
+       
+  }
+  .slick-multiItemSlider{
+      position: relative;
+      left: -80px;
+      top: 50px;
+  }
+
+  {/*socila link*/}
+
+  .slider .social-link {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+   
+    
+  }
+  .slider .social-link a{
+      margin-right: 5px;
+  }
+  .slider .social-link p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-right: 15px;
+  }
+  

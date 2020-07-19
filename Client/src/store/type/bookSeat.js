@@ -1,0 +1,2 @@
+export const LIST_SEAT='SET_SELECTED_SEAT';
+export const  ADD_SEATRESERVED='ADD_SEATRESERVED'  ; 

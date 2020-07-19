@@ -1,0 +1,31 @@
+.border-warp{
+    height: 690px;
+    width: 380px;
+    border: 1px solid;
+    margin-top: 50px;
+}
+.warp-content-head{
+    display: flex;
+    
+}
+.head-right{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: bisque;
+}
+.wrap-checkSeat{
+    height: 50px;
+    width: 100%;
+    border: 1px solid;
+    border-color: aquamarine;
+}
+.Bill label{
+   
+    height: 40px;
+    width: 100%;
+    padding-left: 40%;
+    border-radius: 10px;
+    border: 1px solid;
+    padding-top: 6px;
+}

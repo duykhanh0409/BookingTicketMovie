@@ -1,0 +1,80 @@
+#app {
+  
+}
+
+h1 {
+  text-align: center;
+}
+.row{
+    color: #fff;
+}
+
+.container-booking {
+  width: 560px;
+}
+
+.grid td {
+    width: 10px;
+    height: 10px;
+    /* padding: 20px; */
+    padding-bottom: 35px;
+    padding-right: 25px;
+    padding-left: 20px;
+    text-align: center !important;
+    float: left;
+    margin: 5px;
+    font-size: 10px;
+    color: #fff;
+    background-color:rgb(70, 116, 201);
+    padding-top: 20px;
+    border-radius: 5px;
+}
+
+.grid td:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+
+.reserved {
+  background: rgb(73, 138, 73) !important;
+  color: #fff;
+  display: inline-block;
+}
+
+/* .reserved::after {
+  content: 'RESERVED'
+}
+
+.available::after {
+  content: 'AVAILABLE'
+}
+ */
+.available {
+  color: #333;
+}
+
+li {
+  list-style: none;
+}
+.seated{
+  display: flex;
+  position: relative;
+  top: -35px;
+  padding-left: 5px;
+}
+.seated li {
+  list-style: none;
+  margin-right: 5px;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 3px;
+}
+.right{
+  display: flex;
+  margin-top: 40px;
+  font-family: 'Piedra', cursive;
+}
+.right .mov{
+  margin-right: 70px;
+}
+

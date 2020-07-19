@@ -1,0 +1,47 @@
+extends ../layouts/common.pug
+
+block content
+    h1 Create Movie
+
+    if errors
+        each error in errors
+            .alert.alert-danger=error
+    
+    form(action="/movie/postData", method="POST")
+        .form-group
+            label id
+            input.form-control(type="text" name="id")
+        .form-group
+            label name
+            input.form-control(type="text" name="name")
+        .form-group
+            label category
+            input.form-control(type="text" name="category")
+        .form-group
+            label year_of_production
+            input#avatar.form-control-file(type="text" name="year_of_production")
+        .form-group
+            label director
+            input#avatar.form-control-file(type="text" name="director")
+        .form-group
+            label actors
+            input#avatar.form-control-file(type="text" name="actor")
+        .form-group
+            label premiere_date
+            input#avatar.form-control-file(type="text" name="premiere_date")
+        .form-group
+            label duration
+            input#avatar.form-control-file(type="text" name="duration")
+        .form-group
+            label description
+            input#avatar.form-control-file(type="text" name="description")
+        .form-group
+            label language
+            input#avatar.form-control-file(type="text" name="language")
+        .form-group
+            label picture
+            input#avatar.form-control-file(type="file" name="avatar1")
+            input#avatar.form-control-file(type="file" name="avatar2")
+
+
+        button.btn.btn-primary Create

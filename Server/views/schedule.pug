@@ -1,0 +1,22 @@
+extends ../layouts/common.pug
+
+block content
+    h1 Create Movie
+
+    if errors
+        each error in errors
+            .alert.alert-danger=error
+    
+    form(action="/schedule/postData", method="POST")
+        .form-group
+            label id
+            input.form-control(type="text" name="id")
+        .form-group
+            label schedule
+            input.form-control(type="text" name="day1")
+            button btn.btn-primary More
+            .form-group
+                input.form-control(type="text" name="day2")
+
+    
+        button btn.btn-warning Add

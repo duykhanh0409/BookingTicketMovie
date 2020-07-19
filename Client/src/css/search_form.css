@@ -1,0 +1,121 @@
+.sidebar {
+    margin-left: 60px;
+
+  }
+  .sidebar .sb-title {
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #405266;
+}
+.form-style-1 {
+    margin-bottom: 60px;
+    background-color: #0b1a2a;
+    border: 3px solid #0f2133;
+    padding: 15px;
+    
+    padding-top: 20px;
+}
+.form-style-1 .row{
+    position: relative;
+    top: -15px;
+}
+.form-style-1 label {
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    color: #abb7c4;
+    font-weight: bold;
+    text-transform: none;
+    margin-bottom: 10px;
+}
+.form-style-1 .form-it {
+    margin-bottom: 15px;
+  }
+  .form-style-1 input, 
+  .form-style-1 select {
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    color: #abb7c4;
+    font-weight: 300;
+    text-transform: none;
+    background-color: #233a50;
+    border: none;
+    -webkit-border-radius: 3px !important;
+    -moz-border-radius: 3px !important;
+    border-radius: 3px !important;
+    height: 40px;
+    width: 100%;;
+}
+.form-style-1 .group-ip {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: row;
+}
+.form-style-1 .group-ip 
+.ui.selection.dropdown, 
+.form-style-1 .group-ip 
+.ui.multiple.dropdown .menu {
+    background-color: #233a50;
+}
+.ui.multiple.dropdown {
+    padding: .22619048em 2.1em .22619048em .35714286em;
+}
+.ui.selection.dropdown {
+    cursor: pointer;
+    word-wrap: break-word;
+    line-height: 1em;
+    white-space: normal;
+    outline: 0;
+    -webkit-transform: rotateZ(0);
+    transform: rotateZ(0);
+    min-width: 14em;
+    min-height: 2.71428571em;
+    background: #FFF;
+    display: inline-block;
+    padding: .78571429em 2.1em .78571429em 1em;
+    color: rgba(0,0,0,.87);
+    box-shadow: none;
+    border: 1px solid rgba(34,36,38,.15);
+    border-radius: .28571429rem;
+    -webkit-transition: box-shadow .1s ease,width .1s ease;
+    transition: box-shadow .1s ease,width .1s ease;
+}
+.ui.dropdown {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    outline: 0;
+    text-align: left;
+    -webkit-transition: box-shadow .1s ease,width .1s ease;
+    transition: box-shadow .1s ease,width .1s ease;
+    -webkit-tap-highlight-color: transparent;
+}
+.form-style-1 input::-webkit-input-placeholder {
+    color: #abb7c4;
+  }
+  .form-style-1 select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* Firefox */
+    background: url('../images/uploads/drop-icon.png') no-repeat right 20px center;
+    background-color: #233a50;
+    position: relative;
+    top: 0px;
+  }
+  .form-style-1 input.submit {
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #dd003f;
+    width: 100%;
+    cursor: pointer;
+}
