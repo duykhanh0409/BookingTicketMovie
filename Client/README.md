@@ -1,84 +1,49 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# BookingTicketMovie
 
-## Available Scripts
+# THỰC TẬP CHUYÊN MÔN NĂM HỌC 2019-2020
+Họ tên:Nguyễn Ngọc Duy Khánh
 
-In the project directory, you can run:
+Mã sinh viên: 5851071035
 
-### `npm start`
+Lớp:Công nghệ thông tin k58
+## Đề tài: Xây dựng website đặt vé xem phim
+## Phần 1: Công nghệ sử dụng
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[
+![image](https://user-images.githubusercontent.com/51994010/87897959-0dd1e580-ca77-11ea-9c24-cfb9309e4284.png)
+](url)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+•	MongoDB - No-SQL database dùng để lưu trử cơ sở dữ liệu
 
-### Feature
-Booking movie ticket
-Check login
-add/Remove ticket
+•	ExpressJS – framework của Node JS để dựng server nhanh
 
-### tech
-Tech
-Cinema + uses a number of open source projects to work properly:
+•	ReactJS – Là library của Javascript để xây dựng giao diện người dùng
 
-MongoDB - A document-oriented, No-SQL database used to store the application data.
-ExpressJS - fast node.js network app framework.
-ReactJS - A JavaScript library for building user interfaces.
-Redux - A predictable state container for JavaScript apps.
-nodeJS - A JavaScript runtime built on Chrome's V8 JavaScript engine
+•	Redux -  là một predictable state management tool cho các ứng dụng Javascript. .
 
-### `npm test`
+•	nodeJS – là nền tảng được xây dựng trên V8 javascript engine
 
+Công Cụ Lập Trình: Visual Studio Code
+...
+## Phần 2: Các chức năng đã hoàn thành
+  1. Xác Thực tài khoản đăng nhập đăng ký với FireBase
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  2. Đăng Nhập với Facebook
 
-### `npm run build`
+  3.Tìm kiếm phim theo tên, năm , thể loại
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  4.Đặt vé xem phim theo ngày giờ mong muốn
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+  5.Gửi Email xác nhận thông tin vé đặt cho khách
+	
+	6. Thêm được danh sách phim qua server
+...
+## Phần 3: Các chức năng chưa hoàn thành
+1. Cơ Sở dữ liệu chưa tối ưu.
+2. giao diện đơn giản (sẻ cố gắng hoàn thiện thêm )
+...
+## Hướng dẫn sử dụng
+- Muốn đặt vé yêu cầu tài khoản phải được login
+-
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Xin cám ơn!
