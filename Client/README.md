@@ -36,7 +36,9 @@ Công Cụ Lập Trình: Visual Studio Code
 
   5.Gửi Email xác nhận thông tin vé đặt cho khách
 	
-	6. Thêm được danh sách phim qua server
+6. Thêm được danh sách phim qua server
+
+7.Thanh toán qua ví điện tử Paypal
 ...
 ## Phần 3: Các chức năng chưa hoàn thành
 1. Cơ Sở dữ liệu chưa tối ưu.
